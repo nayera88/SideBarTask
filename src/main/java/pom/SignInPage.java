@@ -2,13 +2,13 @@ package pom;
 
 import org.testng.Assert;
 import utils.SeleniumActions;
-import utils.SignInLocators;
+import utils.Locators;
 
 public class SignInPage {
     public void signpage(){
-        SignInLocators signinLocators = new SignInLocators();
+        Locators signinLocators = new Locators();
         SeleniumActions action = new SeleniumActions();
-        action.sendKey(signinLocators.signinEmail,"n.sabry+6+6@converted.in");
+        action.sendKey(signinLocators.signinEmail,"n.sabry+9+9+@converted.in");
         action.sendKey(signinLocators.signinPassword,"nayera888");
         action.click(signinLocators.signinButton);
         String signin = action.getText(signinLocators.assertSignin);
