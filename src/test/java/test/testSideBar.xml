@@ -1,9 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="sidebar test">
+<suite name="sidebar tests">
 
-    <test name="sidebar test steps">
+    <test name="sidebar test steps1">
         <classes>
             <class name="test.testSideBar"/>
+
         </classes>
     </test>
 

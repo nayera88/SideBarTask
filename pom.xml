@@ -60,6 +60,7 @@
                                 <configuration>
                                     <suiteXmlFiles>testSideBar.xml</suiteXmlFiles>
                                 </configuration>
+
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
