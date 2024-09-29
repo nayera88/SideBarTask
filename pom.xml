@@ -56,13 +56,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.5</version><!-- Use the latest version -->
-                <!--                <configuration>-->
-                <!--                    <suiteXmlFiles>-->
-                <!--                        &lt;!&ndash;suppress UnresolvedMavenProperty &ndash;&gt;-->
-                <!--                        <suiteXmlFile>${suite}</suiteXmlFile>-->
-                <!--                    </suiteXmlFiles>-->
-                <!--                </configuration>-->
+                <version>3.2.5</version>
+                                <configuration>
+                                    <suiteXmlFiles>testSideBar.xml</suiteXmlFiles>
+                                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
